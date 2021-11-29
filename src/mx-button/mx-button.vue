@@ -36,7 +36,3 @@ export default class MXButton extends Vue {
   }
 }
 </script>
-
-<style lang="scss">
-@import '../../node_modules/madrox-core/dist/madrox.min.css';
-</style>
