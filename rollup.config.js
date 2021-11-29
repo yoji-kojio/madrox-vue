@@ -2,6 +2,7 @@ import peerDepsExternal from "rollup-plugin-peer-deps-external";
 import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import typescript from "rollup-plugin-typescript2";
+import sass from 'rollup-plugin-sass';
 import vue from "rollup-plugin-vue";
 
 import packageJson from "./package.json";
@@ -20,5 +21,5 @@ export default {
       sourcemap: true
     }
   ],
-  plugins: [vue(), peerDepsExternal(), resolve(), commonjs(), typescript()]
+  plugins: [vue(), peerDepsExternal(), resolve(), commonjs(), typescript(), sass()]
 };
