@@ -1,9 +1,12 @@
 {
   "name": "madrox-vue",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "build": "rollup -c",
     "prepublishOnly": "npm run build"
